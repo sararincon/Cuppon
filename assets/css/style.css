@@ -1,0 +1,106 @@
+body * {
+  font-family: "Roboto", sans-serif;
+}
+h5,
+h2 p {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV */
+.cuppon-nav {
+  background-color: #28a745;
+  min-height: 62px;
+  margin-bottom: 18px;
+}
+.cuppon-nav .navbar-collapse .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* CARD */
+.card {
+  margin-bottom: 30px;
+}
+.card-body {
+  padding: 14px 1rem 15px;
+}
+.cuppon-barra {
+  margin: 10px 0 14px;
+}
+.cuppon-contenedor-precios {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
+.cuppon-contenedor-precios .card-valores-normal {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+}
+.cuppon-contenedor-precios .card-valores-descuento {
+  margin-left: 11px;
+  font-size: 20px;
+  color: #28a745;
+  font-weight: 500;
+}
+
+.card-body .card-title {
+  margin-bottom: 11px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+h5.card-title {
+  min-height: 112px;
+}
+.card-body .card-producto {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 19px;
+  color: #707070;
+}
+
+.card-body .card-direccion {
+  font-weight: 300;
+  font-size: 15px;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+/* FORM */
+.contenedor-form {
+  background-color: #28a745;
+  text-align: center;
+  padding: 25px 0 15px;
+  min-width: 320px;
+}
+
+.cuppon-form .form-control {
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+
+.form-texto {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+button.btn.btn-light.form-button {
+  width: 114px;
+}
+
+/*Footer*/
+.cuppon-footer {
+  min-width: 320px;
+  min-height: 118px;
+  text-align: center;
+}
+.cuppon-img {
+  margin: 24px auto 10px;
+}
+
+.footer-texto {
+  color: #707070;
+  font-weight: 300;
+}
